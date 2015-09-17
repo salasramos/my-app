@@ -1,27 +1,19 @@
 package com.tiempodevelopment.app;
 
-import java.util.ArrayList;
+import junit.framework.TestCase;
 
-import org.junit.Test;
+public class AppTest extends TestCase {
 
-public class AppTest {
-	
-	@Test(expected = ArithmeticException.class)  
-	public void divisionWithException() {  
-	  int i = 1/0;
-	}
-
-	@Test(expected=IndexOutOfBoundsException.class)
-	public void testIndexOutOfBoundsException() {
-	    ArrayList emptyList = new ArrayList();
-	    Object o = emptyList.get(0);
-	}
-	
-    @Test(expected = IllegalArgumentException.class)
-    public void testExpected()
-    {
-       throw new IllegalArgumentException();
-    }
-	
-	
+	  private int x = 2;
+	  private int y = 3;
+	  
+	  public void testAddition() {
+		    int z = x + y;
+		    assertEquals(5, z);
+	  }	
+	  
+	   public void testMultiply() {
+	       double result= x * y;
+	       assertTrue(result == 6);
+	   }	  
 }
