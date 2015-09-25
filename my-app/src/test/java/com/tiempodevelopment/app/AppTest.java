@@ -15,6 +15,6 @@ public class AppTest extends TestCase {
 	   public void testMultiply() {
 	       double result= x * y;
 	       assertTrue(result == 6);
-	       System.out.println("This is a test");
+	       System.out.println("This is a test 123 123");
 	   }	  
 }
