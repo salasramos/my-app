@@ -17,5 +17,9 @@ public class App
     	log.info("Testing git");
     	
     	log.info("The Arcade Fire");
+    	
+    	log.info("Bjork");
+    	
+    	log.info("Documental");
     }
 }
