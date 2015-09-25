@@ -20,6 +20,8 @@ public class App
         log.info("Courtney Love");
         
         log.info("PJ Harvey");
+
+        log.info("BPJHarvey");
     	
     	log.info("Documental");
     	
