@@ -17,7 +17,9 @@ public class App
     	
     	log.info("The Arcade Fire");
     	
-        log.info("B j o r k ");
+        log.info("Courtney Love");
+        
+        log.info("PJ Harvey");
     	
     	log.info("Documental");
     	
